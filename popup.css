@@ -1,0 +1,35 @@
+body {
+  padding: 5px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+}
+
+#message {
+  background-color: #b8e6bf;
+  border: 1px solid green;
+  color: green;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+#go-container {
+  margin-top: 10px;
+  text-align: right;
+}
+
+#go {
+  padding: 5px;
+  font-size: 15px;
+}

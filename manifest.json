@@ -1,0 +1,10 @@
+{
+  "name": "Copy Cookies",
+  "manifest_version": 3,
+  "version": "1.0",
+  "permissions": ["cookies", "storage"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
