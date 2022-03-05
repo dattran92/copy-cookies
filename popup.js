@@ -66,7 +66,7 @@ async function copyCookiesValues(fromDomain, toDomain, pattern) {
   const matchedCookies = cookies
     .filter((cookie) => {
       if (!pattern) return true;
-      return new RegExp('(__bfx_token).*').test(cookie.name);
+      return new RegExp(pattern).test(cookie.name);
     })
 
   const pending = matchedCookies.map((cookie) => copyCookie(cookie, toDomain));
