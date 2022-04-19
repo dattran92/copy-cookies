@@ -6,7 +6,8 @@
   </head>
 <body>
   <div id="message" hidden></div>
-  <form id="control-row">
+  <form id="copy-to-other">
+    <h3>Copy accross domain</h3>
     <label for="from_domain">From Domain: </label>
     <input type="text" id="from_domain">
     <label for="input">To Domain: </label>
@@ -14,8 +15,20 @@
     <label for="input">Key Pattern: </label>
     <input type="text" id="key_pattern">
     <br>
-    <div id="go-container">
-      <button id="go">Copy Cookies</button>
+    <div class="go-container">
+      <button id="copy-to-other-submit">Copy Cookies</button>
+    </div>
+  </form>
+
+  <form id="copy-to-clipboard">
+    <h3>Copy to clipboard</h3>
+    <label for="clipboard_from_domain">From URL: </label>
+    <input type="text" id="clipboard_from_domain">
+    <label for="input">Key: </label>
+    <input type="text" id="clipboard_key">
+    <br>
+    <div class="go-container">
+      <button id="clipboard-submit">Copy</button>
     </div>
   </form>
 </body>

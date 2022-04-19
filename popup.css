@@ -24,12 +24,12 @@ input {
   box-sizing: border-box;
 }
 
-#go-container {
+.go-container {
   margin-top: 10px;
   text-align: right;
 }
 
-#go {
+.go-container button {
   padding: 5px;
   font-size: 15px;
 }
